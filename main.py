@@ -11,5 +11,5 @@ cliente = mqtt.Client()
 cliente.on_connect = ao_conectar
 cliente.on_message = ao_receber
 cliente.connect("broker.hivemq.com", 1883, 60)
-cliente.subscribe("aula3c")
+cliente.subscribe("aula3a")
 cliente.loop_forever()
